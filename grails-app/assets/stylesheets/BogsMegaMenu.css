@@ -1,0 +1,207 @@
+
+/* miniCart popUp , use to position the popUp */
+#mini-cart { width:auto; z-index:999999 !important;
+}
+
+.icePnlPop.mini-cart-popup  { 
+  position:relative;
+  float:left;
+  z-index:25001 !important;
+}
+
+#mini-cart-header { width:300px; height:38px;background: url(resources/images/sa_table_header.png) no-repeat top left;   background-color:transparent !important;
+}
+
+.mini-cart-your-cart { 	color:#464646; font-size:13px; position:relative; top:10px; left:10px;
+}
+
+
+#mini-cart-body { width:275px; 
+                  background-color:#FFFFFF; !important;
+                  padding:4px;
+
+
+                  -webkit-border-radius:1px;
+                  -moz-border-radius:1px;
+                  border-radius:1px;
+                  -moz-box-shadow: 5px 6px 4px rgba(0,0,0,0.4);
+                  -webkit-box-shadow: 5px 6px 4px rgba(0,0,0,0.4);
+                  box-shadow: 5px 6px 4px rgba(0,0,0,0.4);
+
+}
+
+.mini-cart-totalsCol1 { text-align:right; width:175px !important; }
+.mini-cart-totalsCol2 { text-align:right; }
+.mini-subtotals-amount, .mini-subtotals { font-size:18px !important; color:#464646 !important; }
+.mini-cart-table { width:300px; font-size:14px !important; color:#464646; }
+
+.icePnlGrd.mini-cart-totals{  width:300px; }
+
+.mini-cart-checkout-btn {
+  padding:0.35em;
+  color: #FFFFFF !important;
+  font-size: 13px;
+  padding: 5px 5px;
+  text-align: center;
+  text-transform:uppercase;
+  background: none repeat scroll 0 0 #BC881A;
+  color: #FFFFFF;
+  float: right;
+  text-transform:uppercase;
+  cursor:pointer !important;
+
+}
+
+.mini-cart-close-btn {
+  font-size: 10px !important;
+  color: #FFFFFF;
+  float: right;
+  text-transform:uppercase;
+  background: none repeat scroll 0 0 #BC881A;
+  font-family:'RokkittRegular' !important;
+  padding:2px 2px;
+  cursor:pointer !important;
+  border:0px !important;
+
+}
+
+
+.nav h1,.nav h2,.nav h3 {
+  margin:8px 0px 5px 0px !important;
+}
+.nav {
+  font-size:14px;
+  float:left;
+  margin-left: 150px !important;
+
+
+  margin:0 auto;
+
+
+}
+
+
+/* #menu
+================================================== */
+
+#jcorg-nav ul li a.top {
+  font-size: 12px;
+
+}
+
+#jcorg-nav ul li.litop {
+  padding: 10px 0px 0px;
+  padding-top:14px \0/IE9 !important;
+}
+
+.communityPadding{
+  padding-top:10px;
+
+}
+
+.intHeader{
+  width:1006px!important;
+  z-index:-10;
+  margin: 0 auto;
+
+}
+
+.intHeaderEFM {
+
+  padding-top: 15px;
+  position: fixed;
+  width: 35% !important;
+  z-index: -11;
+  float:left !important;
+}
+#jcorg-nav ul li.litop{
+  float:left;
+  position:relative;
+  z-index:1012;
+}
+#jcorg-nav ul li.litop {
+
+}
+#jcorg-nav ul li.litop a {
+  display:block;
+  font-family: 'RokkittRegular' !important;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+#jcorg-nav ul li a.top{ 
+  font-weight:normal;
+  font-family: 'RokkittRegular' !important;  
+  text-transform:uppercase;
+  font-size:16px !important;
+  background-color:none !important;
+  padding:5px 25px !important;
+  color:#191919 /* override global css */;
+}
+
+#jcorg-nav ul li a:hover.top{ 
+  font-weight:normal;
+  font-family: 'RokkittRegular' !important;  
+  text-transform:uppercase;
+  font-size:16px !important;
+  background-color:black !important;
+  padding:5px 25px !important;
+  color:#C98D19 !important;
+}
+.megaGroupTableCol1 {
+  float:left;
+  margin-left:5px;
+}
+
+.menuHover {
+  background-color:#000000;
+  color:#C98D19 !important;
+}
+
+
+#jcorg-nav .megaMenu { 
+
+  position:absolute;
+  left:0px !important;
+  z-index:987;
+  /* background:url(resources/images/menuImg/menuBG.jpg) repeat; */
+  background-color:black !important;
+  padding:15px;
+  white-space:nowrap;
+  min-width:200px;
+  filter:alpha(opacity=85);
+  -moz-opacity: 0.85;
+  opacity: 0.85; 
+
+}
+#jcorg-nav .megaMenu {
+  white-space:normal;
+  display:none
+}
+#jcorg-nav .megaMenu{
+  left:-40px
+}
+#jcorg-nav .megaMenu ul,#jcorg-nav ul { 
+  margin:0;
+  list-style:none
+}
+#jcorg-nav span.arrow {
+  border-bottom: 14px solid #FFFFFF;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  display: none;
+  height: 0;
+  margin-left: -55%;
+  margin-top: 21px;
+  position: absolute;
+  width: 0;
+}
+.clear {clear:both}
+/*lets define individual width of megaMenu Containers*/
+.col {
+  float:left; 
+  margin:5px;
+  width:70px;
+}
+
+.iceDatTbl.megaGroupTable a { color:#FFFFFF !important; margin:3px 3px; }
+.iceDatTbl.megaGroupTable a:hover { color:#C98D19 !important; margin:3px 3px; }
